@@ -1,0 +1,28 @@
+site_name: Identidade Visual Grupo CSC
+
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Inicio: index.md
+  - Contexto: contexto.md
+  - Objetivo: objetivo.md
+  - Desenvolvimento: desenvolvimento.md
+  - Diretrizes: diretrizes.md
+  - Referencias: referencias.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
